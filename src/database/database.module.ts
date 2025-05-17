@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigService } from '@nestjs/config';
-import { getConnectionString } from './config/connection.config';
+import { getConnectionString } from './configs/connection.config';
 import { DBHealthCheckService } from './services/db-health.service';
 
 @Module({
